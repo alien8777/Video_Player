@@ -17,7 +17,7 @@
 
 <!--    custom theme-->
     <style name="ak_pink_nav" parent="Theme.MaterialComponents.Light">
-        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimary">@color/ak_pink</item>
         <item name="colorPrimaryVariant">@color/ak_pink</item>
         <item name="colorOnPrimary">@color/black</item>
         <item name="colorSecondary">@color/ak_pink</item>
