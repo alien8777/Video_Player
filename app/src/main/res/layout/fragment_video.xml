@@ -2,15 +2,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fragments.VideoFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".fragments.VideoFragment">
 
     <TextView
+        android:id="@+id/tvTotalVideos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/total_videos"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvVideos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/total_videos"
-        android:textColor="@color/black"
-        android:textSize="40sp"
-        android:layout_margin="10dp"/>
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical" />
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -10,8 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import com.example.video_player.databinding.ActivityMainBinding
-import fragments.FoldersFragment
-import fragments.VideoFragment
+import com.example.video_player.fragments.FoldersFragment
+import com.example.video_player.fragments.VideoFragment
 import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {

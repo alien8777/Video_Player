@@ -1,4 +1,4 @@
-package fragments
+package com.example.video_player.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
